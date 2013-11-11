@@ -1,0 +1,23 @@
+{
+  "name": "fake-cat-image",
+  "description": "Example web server to demonstrate the difference between MIME types via `Content-Type` HTTP headers and file extensions",
+  "author": "Falco Nogatz <fnogatz@gmail.com>",
+  "version": "0.0.1",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fnogatz/fakt-cat-image.js.git"
+  },
+  "bugs": {
+    "url": "http://github.com/fnogatz/fake-cat-image.js/issues"
+  },
+  "main": "./server.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "dependencies": {},
+  "config": {
+    "port": 8080,
+    "base": "/"
+  }
+}
