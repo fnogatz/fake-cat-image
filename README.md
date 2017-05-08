@@ -1,5 +1,7 @@
 # fake-cat-image
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/fnogatz/fake-cat-image.svg)](https://greenkeeper.io/)
+
 Example web server to demonstrate the difference between MIME types via `Content-Type` HTTP headers and file extensions. Learning target is that file extensions in an URI might not determine the MIME type of the delivered content.
 
 ## Installation
